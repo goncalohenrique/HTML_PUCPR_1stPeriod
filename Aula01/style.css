@@ -1,0 +1,114 @@
+    body {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-image: url("papel.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .h3Nav{
+        color: rgb(173, 127, 27);
+        font-family: monospace;
+
+    }.ulNav{
+        list-style:lower-greek;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+
+
+nav{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 255, 0.913);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    width: 100%;
+    height: 50px;
+}
+
+    header {
+        align-items: center;
+        align-content: center;
+        background-color: rgb(173, 127, 27);
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        
+    }
+
+    .firstH1 {
+        color: rgb(60, 60, 230);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+
+
+    .boxInfo {
+        text-align: center;
+        align-content: center;
+        background-color: rgb(60, 60, 230);
+        border: 1px solid black;
+        padding: 10px;
+        margin: 20px 0;
+        height: 200px;
+        width: 620px;
+        border-radius: 10px;
+        border-color: black;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;   }
+
+    .divH1 {
+        color: rgb(173, 127, 27);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        align-items: center;
+    }
+
+    a{
+    
+hover {
+    color: black;
+}
+    }
+
+    .h1tabela {
+        color: white;
+    }
+
+ 
+    table {
+        border: black solid;
+        width: 350px;
+        border-radius: 5px;
+        color: white;
+    }
+
+     td, th {
+        border: 2px solid;
+        border-color: black;
+        border-radius: 4px;
+    }
+    th{
+        color: rgb(173, 127, 27);
+    }
+
+    
+
