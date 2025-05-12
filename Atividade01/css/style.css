@@ -2,11 +2,27 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-items: center;
     text-align: center;
     background-image: url("papel.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    
+    font-family: sans-serif;
+    text-decoration-color: grey;
+    font-size: 17px;
+    line-height: 2.0;
+    text-align: justify;
+    overflow: scroll;
+    background-image: "celazul.jpg";
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: sans-serif;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .h2Nav{
@@ -18,6 +34,12 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
+}
+
+
+.h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -68,21 +90,44 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
+}
+
+.divMapa{
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.divMapa img {
+    transition: transform 0.3s ease; 
+}
+
+.divMapa:hover {
+    transform: scale(1.2); 
 }
 
 .h1Lista{
     color: var(--padrao)  ;
+    font-family: sans-serif;
+    text-decoration-color: grey;
 }
 
+.divParques {
+    margin-left: 15px;
+}
 
 .ulParque{
     list-style: upper-roman;
 }
 
 
+
+
 .boxInfo {
     text-align: center;
+    
     align-content: center;
+    font-size: medium;
     background-color:var(--padrao) ;
     border: 1px solid black;
     padding: 10px;
@@ -121,6 +166,7 @@ table {
     width: 350px;
     border-radius: 5px;
     color: white;
+    font-size: small;
 }
 
  td, th {
