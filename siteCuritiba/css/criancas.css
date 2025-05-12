@@ -6,6 +6,7 @@
 nav {
     background-color:rgb(122 163 161);
     padding: 30px;
+    
 }
 
 nav ul {
@@ -67,6 +68,7 @@ body {
 
 section {
     padding: 10px;
+    ;
 }
 
 h1 {
@@ -135,6 +137,8 @@ td {
     margin: 0;
     padding: 30px;
     align-items: center;
+    scale: 0,6;
+    
 }
 
 .navBar li{
@@ -156,6 +160,7 @@ td {
     border-radius: 70px;
     margin: 2%;
     padding: 20px;
+
 }
 header{
     background-color:rgb(122 163 161);
@@ -198,3 +203,5 @@ header{
     border-radius: 10px;
     margin: 40px;
 }
+
+
