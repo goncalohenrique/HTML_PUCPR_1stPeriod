@@ -120,7 +120,9 @@ header {
     list-style: upper-roman;
 }
 
-
+.boxInfo:hover {
+    transform: scale(1.2);
+}
 
 
 .boxInfo {
@@ -147,6 +149,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     align-items: center;
+    line-height: 1.2;
 }
 
 a{
