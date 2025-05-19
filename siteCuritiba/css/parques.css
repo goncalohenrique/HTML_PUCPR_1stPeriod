@@ -3,6 +3,50 @@
     padding: 0px;
 }
 
+
+.bodyparque {
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+}
+
+.sectionParques {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sectionParques img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.sectionParques img:hover {
+    filter: grayscale(100%);
+}
+.sectionParques h2 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.sectionParques p {
+    font-size: 17px;
+    font-family: 'sans-serif';
+    line-height: 2;
+    color: #666;
+    text-align: justify;
+}
+
+
+.bodyparque {
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'sans-serif';
+    line-height: 2;
+    color: #666;
+}
+
 nav {
     background-color:rgb(122 163 161);
     padding: 30px;

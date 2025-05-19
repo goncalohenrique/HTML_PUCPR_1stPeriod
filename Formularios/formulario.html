@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../Formularios/forms.css"/>
+
+    <title>Formulario</title>
+</head>
+<body>
+
+    <nav> <h1>Formball</h1></nav>
+
+
+  
+    
+    <h1>Formulário de Cadastro</h1>
+    <div>
+
+<form action="submit">
+  <fieldset>
+            <legend> <h2>Informações</h2> </legend>
+               <label for="nome">Nome: </label>
+               <input type="text" name="nome" id="inpNome"> 
+               <br><br>
+               <label for="sobrenome">Sobrenome: </label>
+               <input type="text" name="nome" id="inpSobrenome"><br> <br>
+        
+                <label for="cpf">CPF: </label>
+                <input type="number" name="cpf" id="numbercpf">
+               
+                <br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend><h2>Características do candidato</h2></legend>
+            <label for="idade">Data de Nascimento:</label>
+            <input type="date" name="dataNascimento" id="inpDataNascimento"><br><br>
+            <label for="altura">Altura em centímetros:</label>
+            <input type="number" name="altura"><br><br>
+            <label for="posicao">Posição em que atua</label>
+            <input type="text" name="funcao"><br><br>
+            <label for="experiencia">Já atuou em algum time antes?</label>
+            <input type="radio" name="time" value="sim">Sim
+            <input type="radio" name="time" value="nao">Não<br><br>
+            <label for="">Se sim, quais?</label>
+            <input type="text" name="timeAnterior"><br><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend> <h2>Saúde</h2></legend>
+            <label for="saude">Possui alguma doença?</label>
+            <input type="radio" name="doenca" value="sim">Sim
+            <input type="radio" name="doenca" value="nao">Não<br><br>
+            <label for="doenca">Se sim, qual?</label>
+            <input type="text" name="doenca"><br><br>
+            <label for="alergia">Possui alguma alergia?</label>
+            <input type="radio" name="alergia" value="sim">Sim
+            <input type="radio" name="alergia" value="nao">Não<br><br>
+            <label for="alergia">Se sim, qual?</label>
+            <input type="text" name="alergia"><br><br>
+            <label for="lesoes">Já teve alguma dessas lesões?</label>
+            <br><br>
+            <input type="checkbox" name="lesoes" value="joelho">Joelho
+            <input type="checkbox" name="lesoes" value="tornozelo">Tornozelo
+            <input type="checkbox" name="lesoes" value="ombro">Ombro
+            <input type="checkbox" name="lesoes" value="Coxa">Posterior da Coxa
+             <br><br>
+        </fieldset>
+
+
+
+    </form>
+    <br>
+    <br>
+    </div>
+    <h1>Informações de contato</h1>
+    <div>
+
+        <form action="submit">
+         <br>
+            <fieldset>
+                <legend>
+                    <h2>Contato</h2>
+                </legend>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="emailid"><br><br>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telid"><br><br>
+            </fieldset>
+            
+
+            <fieldset>
+                <legend> <h2>Endereço</h2>  </legend>   <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cepid"><br><br>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidadeid"><br><br>
+            <label for="estado">Estado</label>
+            <input type="text" name="estado" id="estadoid"><br><br>
+        </fieldset>
+
+
+        </form>
+        
+          
+       
+           
+        <br><br>
+    </div>
+<br><br>
+    <input type="submit" value="Enviar" id="btnEnviar" class="btnEnviar">
+      
+    
+</body>
+</html>
